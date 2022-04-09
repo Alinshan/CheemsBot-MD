@@ -8,7 +8,6 @@
   
 [![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |
 ----|
-[](https://github.com/afnanplk)  |
   </div>
   
   <div align="center">
