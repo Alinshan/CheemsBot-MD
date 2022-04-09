@@ -1,5 +1,11 @@
 //[© 2022 Xeon Bot Inc.]\\
 
+//~you can re-upload but tag my channel
+//or put my channel link in the description.
+//~you can recode or copy the codes but give
+//credit.
+//~Thank you to LORD BUDDHA, ME AND MY 
+//FAMILY.
 
 //[modules]\\
 require('./config')
@@ -94,11 +100,11 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 	
 //[target]\\
 	const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Jarvis Bot's Official GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/KTcvOHqo3Kl1YxGpIdRjif"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Bot's Support GC`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://chat.whatsapp.com/KTcvOHqo3Kl1YxGpIdRjif"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join Telegram Movie Group`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://t.me/+8bR-OoqDDtUxZDQ1"}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botnma}`,"body": ` Join TG Movie Group`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/cheemspic.jpg`),"sourceUrl": "https://t.me/+8bR-OoqDDtUxZDQ1"}}}, { quoted: m})
         }
 try {
             let isNumber = x => typeof x === 'number' && !isNaN(x)
@@ -166,7 +172,7 @@ const levelRole = getLevelingLevel(m.sender)
 	if (isAntiLink) 
 if (budy.includes('https://chat.whatsapp.com/')) {
                if (!m.key.fromMe) {
-               reply('*LINK DETECTED*\nThis group has been installed with Antilink, OK?..,\nGood Bye To You..👋🏻')
+               reply('*LINK DETECTED*\nThis group has been installed with Antilink, OK?..,\nGood Bye..👋🏻')
                let sianj = m.sender
                await XeonBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
                }
@@ -1199,13 +1205,13 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Git📍',
-                                    url: 'https://github.com/Alinshan/Jarvis'
+                                    displayText: 'YouTube📍',
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 859-2068-706'
+                                    phoneNumber: '+91 690-9137-213'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1240,7 +1246,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/Alinshan/Jarvis'
+                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1502,7 +1508,7 @@ case 'antilink':
         }
         break
 	    case 'play': case 'ytplay': {
-                if (!text) throw `Example : ${prefix + command} tentacion`
+                if (!text) throw `Example : ${prefix + command} bts boy with luv`
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
@@ -1604,14 +1610,6 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 XeonBotInc.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/anime/'+command, 'apikey') }, caption: `Download From ${text}` }, { quoted: m})
             }
             break
-	    case 'couplepp': case 'ppcouple': {
-                replay(mess.wait)
-                let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
-                let random = anu[Math.floor(Math.random() * anu.length)]
-                XeonBotInc.sendMessage(m.chat, { image: { url: random.male }, caption: `Couple Male` }, { quoted: m })
-                XeonBotInc.sendMessage(m.chat, { image: { url: random.female }, caption: `Couple Female` }, { quoted: m })
-            }
-            break
             case 'wallpaper': {
                 if (!text) throw 'Enter Query Title'
 		let { wallpaper } = require('./lib/scraper')
@@ -1710,49 +1708,6 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                 let anu = await primbon.primbon_memancing_ikan(tgl, bln, thn)
                 if (anu.status == false) return reply(anu.message)
                 XeonBotInc.sendText(m.chat, `⭔ *Date :* ${anu.message.tgl_memancing}\n⭔ *Results :* ${anu.message.result}\n⭔ *Notes :* ${anu.message.catatan}`, m)
-            }
-            break
-            case 'masasubur111111': case 'fertiletimekekskdk': {
-                if (!text) throw `Example : ${prefix + command} 12, 1, 2022, 28\n\nNote : ${prefix + command} first day of menstruation, cycle`
-                let [tgl, bln, thn, siklus] = text.split`,`
-                let anu = await primbon.masa_subur(tgl, bln, thn, siklus)
-                if (anu.status == false) return reply(anu.message)
-                XeonBotInc.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Notes :* ${anu.message.catatan}`, m)
-            }
-            break
-            case 'zodiakjfjdkkd': case 'zodiackckdkdk': {
-                if (!text) throw `Example : ${prefix+ command} 7 7 2005`
-                let zodiak = [
-                    ["capricorn", new Date(1970, 0, 1)],
-                    ["aquarius", new Date(1970, 0, 20)],
-                    ["pisces", new Date(1970, 1, 19)],
-                    ["aries", new Date(1970, 2, 21)],
-                    ["taurus", new Date(1970, 3, 21)],
-                    ["gemini", new Date(1970, 4, 21)],
-                    ["cancer", new Date(1970, 5, 22)],
-                    ["leo", new Date(1970, 6, 23)],
-                    ["virgo", new Date(1970, 7, 23)],
-                    ["libra", new Date(1970, 8, 23)],
-                    ["scorpio", new Date(1970, 9, 23)],
-                    ["sagittarius", new Date(1970, 10, 22)],
-                    ["capricorn", new Date(1970, 11, 22)]
-                ].reverse()
-
-                function getZodiac(month, day) {
-                    let d = new Date(1970, month - 1, day)
-                    return zodiak.find(([_,_d]) => d >= _d)[0]
-                }
-                let date = new Date(text)
-                if (date == 'Invalid Date') throw date
-                let d = new Date()
-                let [tahun, bulan, tanggal] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
-                let birth = [date.getFullYear(), date.getMonth() + 1, date.getDate()]
-
-                let zodiac = await getZodiac(birth[1], birth[2])
-                
-                let anu = await primbon.zodiak(zodiac)
-                if (anu.status == false) return reply(anu.message)
-                XeonBotInc.sendText(m.chat, `⭔ *Zodiac :* ${anu.message.zodiak}\n⭔ *Number :* ${anu.message.nomor_keberuntungan}\n⭔ *Aroma :* ${anu.message.aroma_keberuntungan}\n⭔ *Planet :* ${anu.message.planet_yang_mengitari}\n⭔ *Flower :* ${anu.message.bunga_keberuntungan}\n⭔ *Color :* ${anu.message.warna_keberuntungan}\n⭔ *Rock :* ${anu.message.batu_keberuntungan}\n⭔ *Element :* ${anu.message.elemen_keberuntungan}\n⭔ *Zodiac Couple :* ${anu.message.pasangan_zodiak}\n⭔ *Notes :* ${anu.message.catatan}`, m)
             }
             break
             case 'shiondkskskso': {
@@ -2147,7 +2102,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/918592068706?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2350,25 +2305,25 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'jarvis':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-JARVIS WA BOT`
+Cheems Bot With You Forever!! 🐶🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴀʟɪɴsʜᴀɴ`,
+                            hydratedFooterText: `Cheems Bot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Telegram📍',
-                                    url: 'https://t.me/ERROR_X_PREDATOR'
+                                    displayText: 'Movies Hub📍',
+                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/Alinshan/Jarvis'
+                                    url: 'https://github.com/DGAlinshan/Jarvis'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2422,8 +2377,8 @@ Please Select Button Below
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Telegram📍',
-                                    url: 'https://t.me/ERROR_X_PREDATOR'
+                                    displayText: 'Movies Hub📍',
+                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
                                 }
                             }, {
                             	urlButton: {
@@ -2458,7 +2413,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname}`,
                     description: `Please Choose The Menu\n\n`,
                     buttonText: "Menu",
-                    footerText: "_Cheems Bot-MD_",
+                    footerText: "©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Group Features",
@@ -2589,7 +2544,7 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -2631,7 +2586,7 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -2684,45 +2639,13 @@ case 'downloadmenu': {
                     }
                 }), { userJid: m.chat })
                 XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
-break
-case 'randommenu': {
-	anu = `
-	*Random Menu*
-  
-  ➙ ${prefix}coffee
-  ➙ ${prefix}couplepp
-  `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'Movies Hub📍',
-                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
-                            }]
-                        }
-                    }
-                }), { userJid: m.chat })
-                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
+     
+     }
 break
 case 'funmenu': {
 	anu = `
 	*Fun Menu*
   
-  ➙ ${prefix}couple
-  ➙ ${prefix}mysoulmate
   ➙ ${prefix}math [mode] 
   `
   const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2766,98 +2689,6 @@ case 'voicemenu': {
   ➙ ${prefix}squirrel
 `
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'Movies Hub📍',
-                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
-                            }]
-                        }
-                    }
-                }), { userJid: m.chat })
-                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
-break
-case 'religionmenukdksoejdjj': {
-	anu = `
-	*Religion Menu*
-	
-     (Islamic)
-  ➙ ${prefix}iqra
-  ➙ ${prefix}hadith
-  ➙ ${prefix}alquran
-  ➙ ${prefix}juzamma
-  ➙ ${prefix}tafsirsurah`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
-                            hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'Movies Hub📍',
-                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: '👤Owner👤',
-                                    id: `${prefix}owner`
-                                }
-                            }]
-                        }
-                    }
-                }), { userJid: m.chat })
-                XeonBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
-            }
-break
-case 'horoscopemenukcodk': {
-	anu = `
-	*Horoscope Menu*
-  
-  ➙ ${prefix}hockeynumber
-  ➙ ${prefix}dreammeaning
-  ➙ ${prefix}namemeaning
-  ➙ ${prefix}fortunetelling
-  ➙ ${prefix}marriageprediction
-  ➙ ${prefix}wife&husband
-  ➙ ${prefix}fortunetelling2
-  ➙ ${prefix}matchname
-  ➙ ${prefix}couplematch
-  ➙ ${prefix}married
-  ➙ ${prefix}businessnature
-  ➙ ${prefix}sustenance
-  ➙ ${prefix}profession
-  ➙ ${prefix}fate
-  ➙ ${prefix}potentialdisease
-  ➙ ${prefix}tarot
-  ➙ ${prefix}fengshui
-  ➙ ${prefix}goodday
-  ➙ ${prefix}badday
-  ➙ ${prefix}unluckyday
-  ➙ ${prefix}dragonday
-  ➙ ${prefix}sustenance2
-  ➙ ${prefix}luck
-  ➙ ${prefix}weton
-  ➙ ${prefix}character
-  ➙ ${prefix}luck2
-  ➙ ${prefix}fishing
-  ➙ ${prefix}fertiletime
-  ➙ ${prefix}zodiac
-  ➙ ${prefix}shio`
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
@@ -2925,7 +2756,6 @@ case 'nocategorymenu': {
   
   ➙ ${prefix}ping
   ➙ ${prefix}owner
-  ➙ ${prefix}donate
   ➙ ${prefix}menu / ${prefix}help / ${prefix}?
   ➙ ${prefix}delete
   ➙ ${prefix}chatinfo
@@ -3079,7 +2909,7 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -3101,7 +2931,7 @@ break
   	anu = `
   *All Menu*
   
-  ꪶ💠Group Menu💠ꫂ
+  ꪶ🐕Group Menu🐕ꫂ
   ➙ ${prefix}grouplink
   ➙ ${prefix}ephemeral [option]
   ➙ ${prefix}setgrouppp
@@ -3114,7 +2944,10 @@ break
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   
-  ꪶ💠Download Menu💠ꫂ
+  ꪶ🐕Download Menu🐕ꫂ
+  ➙ ${prefix}tiktoknowm [url]
+  ➙ ${prefix}tiktokwm [url]
+  ➙ ${prefix}tiktokmp3 [url]
   ➙ ${prefix}instagram [url]
   ➙ ${prefix}ig2 [url]
   ➙ ${prefix}igreels [url]
@@ -3126,7 +2959,7 @@ break
   ➙ ${prefix}getmusic [query]
   ➙ ${prefix}getvideo [query
   
-  ꪶ💠Search Menu💠ꫂ
+  ꪶ🐕Search Menu🐕ꫂ
   ➙ ${prefix}play [query]
   ➙ ${prefix}yts [query]
   ➙ ${prefix}google [query]
@@ -3136,10 +2969,10 @@ break
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   
-  ꪶ💠Fun Menu💠ꫂ
+  ꪶ🐕Fun Menu🐕ꫂ
   ➙ ${prefix}math [mode]  
   
-  ꪶ💠Voice Mods Menu💠ꫂ
+  ꪶ🐕Voice Changer Menu🐕ꫂ
   ➙ ${prefix}bass
   ➙ ${prefix}blown
   ➙ ${prefix}deep
@@ -3152,7 +2985,7 @@ break
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
    
-  ꪶ💠Convert Menu💠ꫂ
+  ꪶ🐕Convert Menu🐕ꫂ
   ➙ ${prefix}toimage
   ➙ ${prefix}removebg
   ➙ ${prefix}sticker
@@ -3163,7 +2996,7 @@ break
   ➙ ${prefix}ebinary
   ➙ ${prefix}dbinary
   
-  ꪶ💠Misc Menu💠ꫂ
+  ꪶ🐕Misc Menu🐕ꫂ
   ➙ ${prefix}ping
   ➙ ${prefix}owner
   ➙ ${prefix}menu / ${prefix}help / ${prefix}?
@@ -3175,7 +3008,7 @@ break
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
   
-  ꪶ💠Database Menu💠ꫂ
+  ꪶ🐕Database Menu🐕ꫂ
   ➙ ${prefix}setcmd
   ➙ ${prefix}listcmd
   ➙ ${prefix}delcmd
@@ -3185,17 +3018,17 @@ break
   ➙ ${prefix}getmsg
   ➙ ${prefix}delmsg
   
-  ꪶ💠Anonymous Menu💠ꫂ
+  ꪶ🐕Anonymous Menu🐕ꫂ
   ➙ ${prefix}start ( Start Chat )
   ➙ ${prefix}next ( Next user )
   ➙ ${prefix}stop ( stop Anonymous chat )
   
-  ꪶ💠System Menu💠ꫂ
+  ꪶ🐕System Menu🐕ꫂ
   ➙ ${prefix}antilink On/Off
   ➙ ${prefix}mute On/Off
   ➙ ${prefix}antiwame On/Off
   
-  ꪶ💠Owner Menu💠ꫂ
+  ꪶ🐕Owner Menu🐕ꫂ
   ➙ ${prefix}chat [option]
   ➙ ${prefix}join [link]
   ➙ ${prefix}leave
