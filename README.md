@@ -10,9 +10,6 @@
   <p align="center">
 <img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="250" height="250"/>
 </p>
-  
-<a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
   <p align="center">
 <a href="https://github.com/Alinshan"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp">
 </p>
