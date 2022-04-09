@@ -57,8 +57,8 @@ heroku/nodejs
 * Any text editor
 ## `Clone Repo & Installation dependencies`
 ```bash
-git clone https://github.com/DGXeon/CheemsBot-MD.git
-cd CheemsBot-MD
+git clone https://github.com/Alinshan/Jarvis.git
+cd Jarvis
 npm start
 ```
 ## `For Termux/Ssh/Ubuntu`
