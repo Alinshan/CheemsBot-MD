@@ -2350,7 +2350,7 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'jarvis':{
                 anu = `Hi ${pushname}
 JARVIS WA BOT`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -2359,7 +2359,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
+                            hydratedFooterText: `©ᴀʟɪɴsʜᴀɴ`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Telegram📍',
@@ -2589,7 +2589,7 @@ case 'grupmenu': {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -2631,7 +2631,7 @@ case 'downloadmenu': {
                             hydratedContentText: okemenu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -3079,7 +3079,7 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -3210,7 +3210,7 @@ break
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs ʙʏ ᴀʟɪɴsʜᴀɴ`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -3230,6 +3230,7 @@ break
 break
 case 'tqtt': 
 reply(`Thanks to
+Me 😂
 Xeon
 Baileys
 And all friends who helped assemble this script !!!`)
