@@ -1,12 +1,40 @@
-## JARVIS
+----------
+<div align="center">
+  
+## ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+TOXIC+ALEXA+WA+BOT+REPO.;CREATED+BY+ALINSHAN)
+
+</div>
+
+
+<div align="center">
+  <p align="center">
+<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="100" height="100"/>
+</p>
+<a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+</p>
+  <p align="center">
+<a href="https://github.com/Alinshan"><img title="Author" src="https://img.shields.io/badge/AUTHOR-ALINSHAN-grey%2Fblue?color=blue&style=for-the-badge&logo=whatsapp">
+</p>
+  <p align="center"> 
+  <a href="https://wa.me/918592068706"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+</div>
+<p align="center">
+ᴘʀᴏᴊᴇᴄᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ <a href="https://github.com/Alinshan">ᴀʟɪɴsʜᴀɴ</a>
+    <br>
+       | © |
+        Reserved |
+    <br> 
+</p>
+
+
+----------
+
+
+----------
 
 # Setup For Deployment 👇
 
-## `SETTINGS`
-
-- CHANGE OWNER NUMBER [Here](https://github.com/Alinshan/Jarvis/blob/master/config/config.json#L25)
-- CHANGE OWNER NAME [Here](https://github.com/Alinshan/Jarvis/blob/master/config/config.json#L30)
-- CHANGE BOT NAME [Here](https://github.com/Alinshan/Jarvis/blob/master/config/config.json#L29)
 
 ## ` BUILDPACKS`
 
