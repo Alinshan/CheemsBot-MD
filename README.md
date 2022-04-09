@@ -4,11 +4,14 @@
 ## ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+JARVIS+WA+BOT+REPO)
 
 </div>
+  <div align="center">
   
-<div align="center">
-  [![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |
-----|
+[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |  [![afnanplk](https://github.com/afnanplk.png?size=200)](https://github.com/afnanplk) |
+----|----|
+[ALINSHAN](https://github.com/afnanplk)  |  [AFNANPLK](https://github.com/afnanplk)  |
+Base, Bug Fixes, Modules  |Base, Bug Fixes, Modules  |
   </div>
+  
   <div align="center">
 <a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
