@@ -6,7 +6,7 @@
 </div>
   <div align="center">
   
-[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |
+[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan)|
 ----|
   </div>
   
