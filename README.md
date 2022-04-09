@@ -4,12 +4,10 @@
 ## ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=WELCOME+TO+JARVIS+WA+BOT+REPO)
 
 </div>
-
-
+  
 <div align="center">
-  <p align="center">
-<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="300" height="300"/>
-</p>
+[![ERR0R-x-PREDAT0R](https://telegra.ph/file/83dda0f2e9772c01076b1.jpg?size=200)](https://github.com/Alinshan) |
+----|
 <a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
