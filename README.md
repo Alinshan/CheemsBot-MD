@@ -6,10 +6,10 @@
 </div>
   <div align="center">
   
-[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |  [![afnanplk](https://github.com/afnanplk.png?size=200)](https://github.com/afnanplk) |
-----|----|
-[ALINSHAN](https://github.com/afnanplk)  |  [AFNANPLK](https://github.com/afnanplk)  |
-Base, Bug Fixes, Modules  |Base, Bug Fixes, Modules  |
+[![ERR0R-x-PREDAT0R](https://github.com/Alinshan.png?size=200)](https://github.com/Alinshan) |
+----|
+[ALINSHAN](https://github.com/afnanplk)  |  
+Base, Bug Fixes, Modules  |
   </div>
   
   <div align="center">
