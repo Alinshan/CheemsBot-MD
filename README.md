@@ -6,11 +6,11 @@
 </div>
   <div align="center">
   
-[![ERR0R-x-PREDAT0R](https://telegra.ph/file/83dda0f2e9772c01076b1.jpg?size=50)](https://github.com/Alinshan)|
-----|
-  </div>
+<div align="center">
+  <p align="center">
+<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="150" height="150"/>
+</p>
   
-  <div align="center">
 <a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
