@@ -8,7 +8,7 @@
   
 <div align="center">
   <p align="center">
-<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="150" height="150"/>
+<img src="https://telegra.ph/file/83dda0f2e9772c01076b1.jpg" alt="GIF" width="250" height="250"/>
 </p>
   
 <a href="#"><img title="JARVIS" src="https://img.shields.io/badge/-Jarvis%20-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
