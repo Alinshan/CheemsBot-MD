@@ -2,8 +2,8 @@
 
 //~you can re-upload but tag my channel
 //or put my channel link in the description.
-//~you can recode or copy the codes but give
-//credit.
+//~you can recode or copy the codes but give credit.
+//re-edit @Alinshan
 
 
 //[modules]\\
