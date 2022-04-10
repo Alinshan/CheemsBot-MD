@@ -1205,8 +1205,8 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    displayText: 'Movies Hub📍',
+                                    url: 'https://t.me/+8bR-OoqDDtUxZDQ1'
                                 }
                             }, {
                                 callButton: {
@@ -1246,7 +1246,7 @@ case 'antilink':
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script🔖',
-                                    url: 'https://github.com/DGXeon/CheemsBot-MD'
+                                    url: 'https://github.com/Alinshan/Jarvis'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2102,7 +2102,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/916909137213?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/447451232565?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2305,16 +2305,16 @@ Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
                     break 
-case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
+case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'jarvis': case 'mwonus':{
                 anu = `Hi ${pushname}
-Cheems Bot With You Forever!! 🐶🤚`
+No Vilachil 👻`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
-                            hydratedFooterText: `Cheems Bot-MD`,
+                            hydratedFooterText: `©ᴊᴀʀᴠɪs`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Movies Hub📍',
@@ -2323,7 +2323,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'Script🔖',
-                                    url: 'https://github.com/DGAlinshan/Jarvis'
+                                    url: 'https://github.com/Alinshan/Jarvis'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2443,11 +2443,6 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
-										{
-											"title": "Image Menu",
-										"description": "Displays The List Of Image Features",
-										"rowId": `${prefix}imagemenu`
-										},
 										{
 											"title": "Fun Menu",
 										"description": "Displays The List Of Fun Features",
@@ -3066,7 +3061,7 @@ reply(`Thanks to
 Me 😂
 Xeon
 Baileys
-And all friends who helped assemble this script !!!`)
+And all friends who helped to assemble the script !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
