@@ -4,8 +4,6 @@
 //or put my channel link in the description.
 //~you can recode or copy the codes but give
 //credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
-//FAMILY.
 
 //═══════[codes]════════\\
 let modes = {
