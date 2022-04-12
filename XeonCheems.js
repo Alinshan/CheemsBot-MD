@@ -1210,7 +1210,7 @@ case 'antilink':
                             }, {
                                 callButton: {
                                     displayText: 'Owner Number👤',
-                                    phoneNumber: '+91 690-9137-213'
+                                    phoneNumber: '+91 938-3491-460'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1507,7 +1507,7 @@ case 'antilink':
         }
         break
 	    case 'play': case 'ytplay': {
-                if (!text) throw `Example : ${prefix + command} bts boy with luv`
+                if (!text) throw `Example : ${prefix + command} love nwantiti`
                 let yts = require("yt-search")
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
@@ -2101,7 +2101,7 @@ View list of message with ${prefix}listmsg`)
 				let buttons = [{
                                 urlButton: {
                                     displayText: 'Report Bug🐛',
-                                    url: 'https://wa.me/447451232565?text=hello+bro+i+found+a+bug+in+your+bot'
+                                    url: 'https://wa.me/919383491460?text=hello+bro+i+found+a+bug+in+your+bot'
                                 }
                             }, {
                                 quickReplyButton: {
